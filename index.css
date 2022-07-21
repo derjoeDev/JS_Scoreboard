@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+}
+
+h3 {
+    
+    text-align: center;
+    font-family: orbitron;
+    font-size: 30pt;
+    color: white;
+    text-shadow: 2px 1px #f72585;
+   
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: gray;
+    width: 550px;
+    background-image: url(images/basketball.jpeg);
+    background-size: cover;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.homecontainer, .guestcontainer{
+    align-items: flex-start;
+    width: 250px;
+    height: 300px;   
+}
+
+.newgamecontainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.buttons{
+    text-align: center;
+    margin-top: 40px; 
+    
+}
+.btnscore{
+    width: 60px;
+    height: 50px;
+    border-radius: 5px;
+    background-image: linear-gradient(#4cc9f0, #f72585);
+    color: white;
+    font-size: 18pt;
+    font-family: orbitron;
+    
+}
+
+#numberscore, #numberscoreguest{
+    margin: auto;
+    border-radius: 15px;
+    width: 150px;
+    height: 120px;
+    background: black;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: orbitron;
+    font-size: 50pt;
+    box-shadow: 2px 2px white;
+
+}
+
+.btnReset{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    background-image: linear-gradient(#caf0f8, white, #caf0f8);
+    color: #355070;
+    font-size: 16pt;
+    font-family: orbitron;   
+}
